@@ -804,4 +804,6 @@ properly.
 
 
 
-
+.bordered {
+   border-radius: 20px;
+}
