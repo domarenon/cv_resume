@@ -807,3 +807,7 @@ properly.
 .bordered {
    border-radius: 20px;
 }
+
+.imagen-bg{
+   background-color:rgba(0, 0, 0, 0.9)
+}

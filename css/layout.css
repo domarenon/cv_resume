@@ -66,7 +66,7 @@ header .banner-text h1 {
 }
 header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
-   color: #A8A8A8;
+   color: #b1b1b1;
    margin: 0 auto;
    width: 70%;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
@@ -179,7 +179,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { color: #11ABB0; }
 
 
 /* ------------------------------------------------------------------ */
@@ -202,7 +202,7 @@ ul#nav li.current a { color: #F06000; }
    margin-bottom: 12px;
 }
 #about p {
-   line-height: 30px;
+   line-height: 26px;
    color: #7A7A7A;
 }
 #about .profile-pic {
@@ -298,7 +298,7 @@ ul#nav li.current a { color: #F06000; }
 .bars li {
    position: relative;
   	margin-bottom: 60px;
-  	background: #ccc;
+  	background: #8fc5c7;
   	height: 42px;
   	border-radius: 3px;
 }
@@ -318,7 +318,7 @@ ul#nav li.current a { color: #F06000; }
 
    margin: 0;
    padding-right: 24px;
-  	background: #313131;
+  	background: #11ABB0;
    display: inline-block;
   	height: 42px;
    line-height: 42px;
@@ -443,6 +443,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 /* overlay */
+/* Foto de Maria Orlova: https://www.pexels.com/es-es/foto/ligero-ciudad-cruce-de-caminos-carretera-4947765/ */
 .portfolio-item .item-wrap .overlay {
    position: absolute;
    left: 0;
@@ -606,7 +607,7 @@ ul#nav li.current a { color: #F06000; }
    line-height: 72px;
    text-align: left;
    float: left;
-   color: #fff;
+   color: #11ABB0;
 }
 #call-to-action .action {
    margin-top: 12px;
@@ -639,6 +640,10 @@ call-to-action .button {
 	color: #D8D8D8;
 }
 
+#call-to-action p.lead {
+   line-height: 1.3
+}
+
 /* ------------------------------------------------------------------
 /* g. Testimonials
 /* ------------------------------------------------------------------ */
@@ -662,7 +667,7 @@ call-to-action .button {
    font: 18px/24px 'opensans-bold', sans-serif;   
    text-transform: uppercase;
    letter-spacing: 3px;
-   color: #fff;
+   color: #11ABB0;
 }
 #testimonials h1 span { display: none; }
 #testimonials .header-col { padding-top: 9px; }
@@ -674,7 +679,7 @@ call-to-action .button {
    line-height: 72px;
    text-align: left;
    float: left;
-   color: #fff;
+   color: #11ABB0;
 }
 
 /*	Blockquotes */
@@ -697,7 +702,7 @@ call-to-action .button {
    font-size: 12px;
    font-style: normal;
    line-height: 18px;
-   color: #fff;
+   color: #11ABB0;
 }
 #testimonials blockquote cite:before { content: "\2014 \0020"; }
 #testimonials blockquote cite a,
@@ -784,7 +789,7 @@ call-to-action .button {
 }
 .flex-control-paging li a.flex-active {
     background: #fff;
-    background: rgba(255, 255, 255, .9);
+    background: #11ABB0;
     cursor: default;
 }
 
@@ -798,6 +803,8 @@ call-to-action .button {
    padding-bottom: 102px;
    color: #636363;
 }
+
+
 #contact .section-head { margin-bottom: 42px; }
 
 #contact a, #contact a:visited  { color: #11ABB0; }
